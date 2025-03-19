@@ -181,7 +181,7 @@ if menu == "Add a Book":
             library.append(new_book)
             save_library(library)
             st.success("Book added successfully! 🎉")
-            st.balloons()  # Confetti animation
+            st.snow()  # Confetti animation
         else:
             st.warning("Title and Author are required!")
 
